@@ -4,13 +4,14 @@ This lab demonstrates how to configure Virtual Network (vNet) Peering in Microso
 ## 📌 Objectives
 In this lab I created and configured Virtual Network (vNet) Peering in Azure. vNet Peering allows you to connect two virtual networks, enabling low-latency, high-speed communication between them as if they were part of a single network.
 #### 1. Explore Azure Portal Navigation for Network Management
-    Gain familiarity with the Azure interface and learn how to locate, configure, and manage virtual networks effectively.
+ Gain familiarity with the Azure interface and learn how to locate, configure, and manage virtual networks effectively.
 #### 2. Establish vNet Peering Between Two Virtual Networks
-    Create and configure peering connections to enable secure, low-latency communication between isolated Azure networks.
+Create and configure peering connections to enable secure, low-latency communication between isolated Azure networks.
 #### 3. Configure and Name Peering Links for Operational Clarity
-    Practice assigning meaningful names and settings to peering links to support resource tracking, troubleshooting, and long-term maintainability.
+Practice assigning meaningful names and settings to peering links to support resource tracking, troubleshooting, and long-term maintainability.
 #### 4. Implement Bi-Directional Peering for Full Connectivity
-    Understand and apply two-way peering configurations to ensure seamless communication across both networks.
+ Understand and apply two-way peering configurations to ensure seamless communication across both networks.
+ 
 ## 📸 Screenshots
 
 
@@ -21,6 +22,7 @@ This screenshot shows the Azure portal's "Resources" section, where various infr
 
 ### Step 2: Locate vNet-App in the Virtual Network List  
 This screenshot shows the list of virtual networks under the "Softweb Development" directory. Each entry includes its name, resource group, and location. To begin peering configuration, locate and click on `vNet-App` from the list of networks in the `PuneRG` resource group.  
+
 ![Locate vNet-App](screenshots/Opt%20vNet-App.png)
 
 
