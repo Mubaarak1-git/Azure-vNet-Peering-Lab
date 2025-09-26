@@ -23,7 +23,10 @@ This screenshot shows the Azure portal's "Resources" section, where various infr
 ### Step 2: Locate vNet-App in the Virtual Network List  
 This screenshot shows the list of virtual networks under the "Softweb Development" directory. Each entry includes its name, resource group, and location. To begin peering configuration, locate and click on `vNet-App` from the list of networks in the `PuneRG` resource group.  
 
+### Step 2: Locate vNet-App in the Virtual Network List  
+This screenshot shows the list of virtual networks under the "Softweb Development" directory. Each entry includes its name, resource group, and location. To begin peering configuration, locate and click on `vNet-App` from the list of networks in the `PuneRG` resource group.  
 
+![Locate vNet-App](Screenshots/Opt%20vNet-App.png)
 
 
 ### Step 3: Review vNet-App Overview and Navigate to Peerings  
