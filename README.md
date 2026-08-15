@@ -63,3 +63,5 @@ This screenshot shows the peering status between `VNet-App` and `app-east`, conf
 
 ![Additional Peering Verification](Screenshots/Ensuring%20the%20Peering.png)
 
+### Connectivity Testing with Bash
+
