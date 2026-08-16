@@ -1,1 +1,38 @@
+Ping Test – Connectivity Validation
+This section demonstrates how to validate Azure VNet Peering by testing connectivity between virtual machines using their private IP addresses.
 
+🔹 Objective
+Confirm that peered VNets allow seamless communication without routing traffic over the public internet.
+
+🔹 Method
+Use the Bash ping command from one VM to another across the peered networks.
+
+🔹 Expected Result
+Successful replies indicate low‑latency, secure communication through Microsoft’s backbone network.
+
+🔹 Results
+Successful Ping:
+
+5 packets transmitted, 5 received, 0% packet loss.
+
+Round‑trip times under 3 ms, showing low latency.
+
+✅ Confirms secure communication through Microsoft’s backbone.
+
+Failed Ping (100% packet loss):
+
+Demonstrates that connectivity can fail if Network Security Groups (NSGs) block ICMP or if peering is misconfigured.
+
+Useful for troubleshooting scenarios in real labs.
+
+🔹 Portal Verification
+Screenshots from the Azure portal show:
+
+Peering state: Connected
+
+Peering sync status: Fully synchronized
+
+Confirms that the VNets are correctly peered at the control plane level.
+
+🔹 Conclusion
+By combining portal evidence and ping test results, this lab proves that VNet peering enables secure, low‑latency communication between VNets. It also highlights the importance of testing and troubleshooting to ensure connectivity.
